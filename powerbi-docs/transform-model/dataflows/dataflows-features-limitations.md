@@ -29,7 +29,7 @@ There are a few dataflow limitations across authoring, refreshes, and capacity m
 * Multi-Geo is currently not supported.
 * Vnet support is achieved by using a gateway.
 * When using *Computed entities* with gateway data sources, the data ingestion should be performed in different data sources than the computations. The computed entities should build upon entities that are only used for ingestion, and not ingest data within their own mash-up steps.
-
+Direct query on dataflow is not currently supported via a gateway .
 
 ## Dataflow authoring
 
